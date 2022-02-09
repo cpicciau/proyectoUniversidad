@@ -1,2 +1,16 @@
 /* CSS GRID */
 /* **************************************************************** */
+header, main, footer {
+    display:grid;
+    grid-template-columns: 1fr 1000px 100px;
+  }
+  
+  header .logo, section.texto {
+    grid-column: 2/3;
+  }
+  
+  header .menu, section.redes{
+    grid-column: 3/4;
+  }
+  
+  
